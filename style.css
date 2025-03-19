@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #358759;
+}
+
+h1 {
+    font-family: 'Caladea', serif;
+}
+
+h3 {
+    font-family: 'Caladea', serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #358759;
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.info {
+    background-color: #38D031;
+    padding: 5px 8px;
+    margin-bottom: 40px;
+}
+
+.info h1 {
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content {
+    background-color: #358759;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.card img:first-of-type {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #38D031;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+
+footer h3 {
+    max-width: 1500px;
+    padding: 3px 330px;
+    margin: 0;
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        
+    }
+}
